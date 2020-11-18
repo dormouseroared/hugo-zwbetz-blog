@@ -1,4 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "hugo-zwbetz-blog version 001"
+title = "hugo-zwbetz-blog version 002"
 publishDir = "docs"
+[params]
+    homeText = "Make a Hugo blog from scratch"
