@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "hugo-zwbetz-blog version 003"
+title = "hugo-zwbetz-blog version 004"
 publishDir = "docs"
 [params]
-    homeText = "add favicon.ico to static - no html"
+    homeText = "add favicon.ico to static with html"
