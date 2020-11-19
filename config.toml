@@ -3,4 +3,4 @@ languageCode = "en-us"
 title = "hugo-zwbetz-blog version 004"
 publishDir = "docs"
 [params]
-    homeText = "add favicon.ico to static with html"
+    homeText = "004 add favicon html"
