@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "hugo-zwbetz-blog version 004"
+title = "green | hugo-zwbetz-blog"
 publishDir = "docs"
 [params]
-    homeText = "004 add favicon html"
+    homeText = "005 href favicon html"
