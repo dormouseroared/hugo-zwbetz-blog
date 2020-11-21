@@ -3,14 +3,65 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    {{/* The favicon works as a relative link for the index.html at root    */}}
+    {{/*  but not for any other link on the menu or any content at a lower level  */}}
+    {{/*  that's why the absURL is used  */}}
+    {{/*  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  */}}
+
+    {{ $fav := "favicon.ico" | absURL }}
+    <link rel="shortcut icon" href="{{ $fav }}" type="image/x-icon">
+
     <title>{{ .Title }}</title>
+
+    <style>
+      .container {
+        max-width: {{ .Site.Params.containerMaxWidth | default "700px" | safeCSS }};
+      }
+      #nav a {
+        font-weight: bold;
+        color: inherit;
+      }
+      #nav-border {
+        border-bottom: 1px solid #212529;
+      }
+      #main {
+        margin-top: 1em;
+        margin-bottom: 4em;
+      }
+      #home-jumbotron {
+        background-color: inherit;
+      }
+      .font-125 {
+        font-size: 125%;
+      }
+      .tag-btn {
+        margin-bottom: 0.3em;
+      }
+      img {
+        max-width: 100%;
+      }
+      </style>
+      
+
   </head>
   <body>
+
+    <div id="nav-border" class="container">
+      <nav id="nav" class="nav justify-content-center">
+      {{ range .Site.Menus.main }}
+        {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
+        {{ $text := print $icon " " .Name | safeHTML }}
+        <a class="nav-link" href="{{ .URL }}">{{ $text }}</a>
+      {{ end }}
+      </nav>
+    </div>
+
     <div class="container">
       <main id="main">
         <div id="home-jumbotron" class="jumbotron text-center">
@@ -19,5 +70,12 @@
         </div>
       </main>
     </div>
+
+    {{ $js := "js/feather.min.js" | absURL }}
+    <script src="{{ $js }}"></script>
+    <script>
+      feather.replace()
+    </script>
+
   </body>
 </html>
