@@ -1,4 +1,4 @@
-baseURL = "https://dormouseroared.github.io/hugo-zwbetz-blog"
+baseURL = "https://dormouseroared.github.io/hugo-zwbetz-blog/"
 languageCode = "en-us"
 title = "green | hugo-zwbetz-blog"
 publishDir = "docs"
