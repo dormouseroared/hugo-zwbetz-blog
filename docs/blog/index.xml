@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on green | hugo-zwbetz-blog</title>
-    <link>http://example.org/blog/</link>
+    <link>https://dormouse.github.io/hugo-zwbetz-blog/blog/</link>
     <description>Recent content in Blog on green | hugo-zwbetz-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 12:27:52 +0000</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2020 12:27:52 +0000</lastBuildDate><atom:link href="https://dormouse.github.io/hugo-zwbetz-blog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poem 3</title>
-      <link>http://example.org/blog/poem-3/</link>
+      <link>https://dormouse.github.io/hugo-zwbetz-blog/blog/poem-3/</link>
       <pubDate>Sat, 21 Nov 2020 12:27:52 +0000</pubDate>
       
-      <guid>http://example.org/blog/poem-3/</guid>
+      <guid>https://dormouse.github.io/hugo-zwbetz-blog/blog/poem-3/</guid>
       <description>I think that I shall never see A poem lovely as a tree.
 A tree whose hungry mouth is prest Against the earth’s sweet flowing breast;
 A tree that looks at God all day, And lifts her leafy arms to pray;
@@ -23,20 +23,20 @@ Poems are made by fools like me, But only God can make a tree.</description>
     
     <item>
       <title>Poem 2</title>
-      <link>http://example.org/blog/poem-2/</link>
+      <link>https://dormouse.github.io/hugo-zwbetz-blog/blog/poem-2/</link>
       <pubDate>Sat, 21 Nov 2020 12:27:42 +0000</pubDate>
       
-      <guid>http://example.org/blog/poem-2/</guid>
+      <guid>https://dormouse.github.io/hugo-zwbetz-blog/blog/poem-2/</guid>
       <description>That it will never come again Is what makes life so sweet. Believing what we don’t believe Does not exhilarate.
 That if it be, it be at best An ablative estate &amp;ndash; This instigates an appetite Precisely opposite.</description>
     </item>
     
     <item>
       <title>Poem 1</title>
-      <link>http://example.org/blog/poem-1/</link>
+      <link>https://dormouse.github.io/hugo-zwbetz-blog/blog/poem-1/</link>
       <pubDate>Sat, 21 Nov 2020 12:20:47 +0000</pubDate>
       
-      <guid>http://example.org/blog/poem-1/</guid>
+      <guid>https://dormouse.github.io/hugo-zwbetz-blog/blog/poem-1/</guid>
       <description>If you can keep your head when all about you Are losing theirs and blaming it on you, If you can trust yourself when all men doubt you, But make allowance for their doubting too; If you can wait and not be tired by waiting, Or being lied about, don’t deal in lies, Or being hated, don’t give way to hating, And yet don’t look too good, nor talk too wise:</description>
     </item>
     

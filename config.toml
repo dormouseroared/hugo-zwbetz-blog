@@ -1,11 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://dormouse.github.io/hugo-zwbetz-blog"
 languageCode = "en-us"
 title = "green | hugo-zwbetz-blog"
 publishDir = "docs"
 [taxonomies]
   tag = "tags"
 [params]
-    homeText = "006 favicon is now absURL"
+    homeText = "007 html is all inline, baseURL updated"
 [menu]
     [[menu.main]]
         name = "Home"
