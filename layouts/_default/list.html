@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
 
     {{/* The favicon works as a relative link for the index.html at root    */}}
     {{/*  but not for any other link on the menu or any content at a lower level  */}}
@@ -67,6 +69,8 @@
     <div class="container">
         <main id="main">
 
+            {{/* main starts here ==========*/}}
+
             <h1>{{ .Title }}</h1>
             {{ range .Pages.ByPublishDate.Reverse }}
             <p>
@@ -87,6 +91,9 @@
 
             </p>
             {{ end }}
+
+           {{/* main ends here ============*/}}
+
         </main>
     </div>
 

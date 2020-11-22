@@ -5,7 +5,7 @@ publishDir = "docs"
 [taxonomies]
   tag = "tags"
 [params]
-    homeText = "007 html is all inline, baseURL updated"
+    homeText = "008 bootstrap buttons, bootstrap 5 for index.html"
 [menu]
     [[menu.main]]
         name = "Home"
